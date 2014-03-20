@@ -192,7 +192,7 @@ function drawMap() {
           .attr("style", "left:" + (mouse[0] - topleft.x + 15) + "px;top:" + (mouse[1] - topleft.y - 40) + "px")
           .html("Postcode: " + d.properties.name + "<br/>Spending: " + accounting.formatMoney(d.properties.spending))
       })
-        .on("mouseout",  function(d, i) {
+      .on("mouseout",  function(d, i) {
           viewModel.hoverPostcodeOnChart("");
           mapTooltip.classed("hidden", true)
           d3.select(".postcode.selected").moveToFront();
@@ -213,14 +213,14 @@ function drawMap() {
     .tickSize(1)
     .tickValues(color.quantiles());
 
-    svgLegend = d3.select(".legend.leaflet-control").append("svg")
-      .attr("id", 'legend')
-      .attr("width", 450)
-      .attr("height", 50);
+  svgLegend = d3.select(".legend.leaflet-control").append("svg")
+    .attr("id", 'legend')
+    .attr("width", 450)
+    .attr("height", 50);
 
-    var gLegend = svgLegend.append("g")
-      .attr("class", "key")
-      .attr("transform", "translate(25,16)");
+  var gLegend = svgLegend.append("g")
+    .attr("class", "key")
+    .attr("transform", "translate(25,16)");
 
   gLegend.selectAll("rect")
     .data(color.range().map(function(d, i) {
@@ -326,8 +326,8 @@ function drawChart() {
     .call(xAxis);
 
   svg.append("g")
-   	.attr("class", "y axis")
-   	.call(yAxis)
+    .attr("class", "y axis")
+    .call(yAxis)
     .append("text")
       .attr("class", "y-legend")
       .attr("y", 11)
