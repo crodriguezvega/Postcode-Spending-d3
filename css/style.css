@@ -1,98 +1,98 @@
 html, body {
-	font-family: Arial, sans-serif;
-	font-size: 12px;
-	margin: 0;
-	background-color: #eee;	
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  margin: 0;
+  background-color: #eee;	
 }
 
 .pattern {
-	background: url('../images/creampaper.png') repeat fixed;
+  background: url('../images/creampaper.png') repeat fixed;
 }
 
 .border-top {
-	border-top: 1px solid #aaa;
+  border-top: 1px solid #aaa;
 }
 
 .border-bottom {
-	border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
 }
 
 .left {
-	float: left;
-	width: 50%;
+  float: left;
+  width: 50%;
 }
 
 .right {
-	margin-left: 50%;
-	border-left: 1px solid #aaa;
+  margin-left: 50%;
+  border-left: 1px solid #aaa;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 .author {
-	text-align: center;
-	padding: 10px;
-	font-family: 'Francois One', sans-serif;
-	font-size: 15px;
-	color: #aaa;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Francois One', sans-serif;
+  font-size: 15px;
+  color: #aaa;
 }
 
 .footer {
-	clear: both;
-	margin: 25px;
-	float: right;
+  clear: both;
+  margin: 25px;
+  float: right;
 }
 
 .centered {
-	position: relative;
-	margin: 0 auto;
-	width: 950px;
+  position: relative;
+  margin: 0 auto;
+  width: 950px;
 }
 
 .content {
-	padding: 15px 0 15px 0;	
+  padding: 15px 0 15px 0;	
 }
 
 .slider-container {
-	padding: 15px;
+  padding: 15px;
 }
 
 .error {
-	background-color:#ff8787;
-	padding: 10px;
-	text-align: center;
-	display: none;
+  background-color:#ff8787;
+  padding: 10px;
+  text-align: center;
+  display: none;
 }
 
 .help {
-	border: 1px solid #aaa;
-	-moz-border-radius: 3px;
+  border: 1px solid #aaa;
+  -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   -khtml-border-radius: 3px;
   border-radius: 3px;
-	background-color: #fff6e5;
-	padding: 1%;
-	margin-bottom: 15px;
+  background-color: #fff6e5;
+  padding: 1%;
+  margin-bottom: 15px;
 }
 
 .header {
-	text-rendering: optimizelegibility;
-	background-color: #ffa200;	
-	padding: 1%;
-	text-align: center;
+  text-rendering: optimizelegibility;
+  background-color: #ffa200;
+  padding: 1%;
+  text-align: center;
 }
 
 .header .title {
-	font-family: 'Francois One', sans-serif;
-	font-size: 23px;
-	color: #fff;
+  font-family: 'Francois One', sans-serif;
+  font-size: 23px;
+  color: #fff;
 }
 
 .header .subtitle {
-	font-size:	14px;
-	color: #f5f5f5;
+  font-size:	14px;
+  color: #f5f5f5;
 }
 
 .axis path,
@@ -107,40 +107,40 @@ html, body {
 }
 
 .centered-chart {
-	position: relative;
-	margin: 0 auto;
-	width: 500px;
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
 }
 
 #chart {
-	font-size: 11px;
+  font-size: 11px;
 }
 
 #chart .bar {
-	cursor: pointer;
-	fill: #0093e2;
+  cursor: pointer;
+  fill: #0093e2;
 }
 
 #chart .bar:hover {
-	fill: #c8c83e;
+  fill: #c8c83e;
 }
 
 #chart .bar.hover {
-	fill: #c8c83e;
+  fill: #c8c83e;
 }
 
 #chart .bar.selected {
-	fill: #ffa200;
+  fill: #ffa200;
 }
 
 #map {
-	font-size: 11px;
+  font-size: 11px;
 }
 
 #map .postcode {  
   fill-opacity: .8;
-	cursor: pointer;
-	stroke: #888;
+  cursor: pointer;
+  stroke: #888;
   stroke-width: 0.5;
 }
 
@@ -150,26 +150,26 @@ html, body {
 }
 
 #map .postcode.hover { 
-	stroke: #c8c83e;
+  stroke: #c8c83e;
   stroke-width: 1.8;
 }
 
 #map .postcode.selected {
-	stroke: #ffa200;
-	stroke-width: 1.8;
+  stroke: #ffa200;
+  stroke-width: 1.8;
 }
 .orang {
-	color: #123123;
+  color: #123123;
 }
 
 /* d3-tip */
 .d3-tip {
-	line-height: 1;
-	/*font-weight: bold;*/
+  line-height: 1;
+  /*font-weight: bold;*/
   padding: 12px;
   background: rgba(0, 0, 0, 0.8);
   color: #fff;
-	-moz-border-radius: 3px;
+  -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   -khtml-border-radius: 3px;
   border-radius: 3px;
@@ -177,22 +177,22 @@ html, body {
 
 /* Creates a small triangle extender for the tooltip */
 .d3-tip:after {
-	box-sizing: border-box;
-	display: inline;
-	font-size: 11px;
-	width: 100%;
-	line-height: 1;
-	color: rgba(0, 0, 0, 0.8);
-	content: "\25BC";
-	position: absolute;
-	text-align: center;
+  box-sizing: border-box;
+  display: inline;
+  font-size: 11px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
 }
 
 /* Style northward tooltips differently */
 .d3-tip.n:after {
-	margin: -2px 0 0 0;
-	top: 100%;
-	left: 0;
+  margin: -2px 0 0 0;
+  top: 100%;
+  left: 0;
 }
 
 .hidden { 
@@ -200,15 +200,15 @@ html, body {
 }
 
 div.tooltip {
-	color: #222; 
-	background: #fff; 
-	padding: .5em; 
+  color: #222; 
+  background: #fff; 
+  padding: .5em; 
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   -khtml-border-radius: 3px;
   border-radius: 3px;
-	border: 1px solid #dedede;
-	box-shadow: 0 2px 8px #a6a6a6;
-	opacity: 0.9; 
-	position: absolute;
+  border: 1px solid #dedede;
+  box-shadow: 0 2px 8px #a6a6a6;
+  opacity: 0.9; 
+  position: absolute;
 }
